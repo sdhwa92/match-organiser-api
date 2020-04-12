@@ -1,0 +1,29 @@
+Resources:
+  MatchesTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ${self:custom.tableName}
+      AttributeDefinitions:
+        - AttributeName: matchId
+          AttributeType: S
+        - AttributeName: hostUserId
+          AttributeType: S
+        - AttributeName: players
+          AttributeType: L
+        - AttributeName: matchDate
+          AttributeType: S
+        - AttributeName: venue
+          AttributeType: S
+        - AttributeName: numOfTeams
+          AttributeType: N
+        - AttributeName: numOfPlayers
+          AttributeType: N
+        - AttributeName: createdDate
+          AttributeType: S
+      KeySchema:
+        - AttributeName: matchId
+          KeyType: HASH
+        - AttributeName: hostUserId
+          KeyType: RANGE
+      # Set the capacity to auto-scale
+      BillingMode: PAY_PER_REQUEST
