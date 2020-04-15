@@ -8,18 +8,6 @@ Resources:
           AttributeType: S
         - AttributeName: hostUserId
           AttributeType: S
-        - AttributeName: players
-          AttributeType: L
-        - AttributeName: matchDate
-          AttributeType: S
-        - AttributeName: venue
-          AttributeType: S
-        - AttributeName: numOfTeams
-          AttributeType: N
-        - AttributeName: numOfPlayers
-          AttributeType: N
-        - AttributeName: createdDate
-          AttributeType: S
       KeySchema:
         - AttributeName: matchId
           KeyType: HASH

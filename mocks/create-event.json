@@ -1,0 +1,8 @@
+{
+  "body": "{\"title\":\"Hello World\",\"description\":\"lets play soccer\", \"players\":[], \"matchDate\":0, \"venus\": \"Griffith Sport Complex\", \"numOfTeams\": 3, \"numOfPlayers\": 5, \"createdAt\": 0}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}

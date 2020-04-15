@@ -1,0 +1,11 @@
+{
+  "body": "{\"title\":\"new match\",\"description\":\"Match details updated.\",\"matchDate\": 12304510,\"players\":[],\"numOfTeams\":2, \"numOfPlayers\":6}",
+  "pathParameters": {
+    "id": "a55bb1d0-7f07-11ea-aef2-a7bd5e60b699"
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
